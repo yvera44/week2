@@ -20,4 +20,7 @@ public class Car {
     public void setMake(String make) {
         this.make = make;
     }
+    public void display() {
+        System.out.println(this.getMake() + " " + this.getModel());
+    }
 }
