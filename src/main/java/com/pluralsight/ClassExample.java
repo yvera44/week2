@@ -3,9 +3,12 @@ package com.pluralsight;
 public class ClassExample {
     public static void main(String[] args) {
 
-        Car car1 = new Car();
-        car1.setMake("Nissan");
-        car1.setModel("Altima");
+        //Car car1 = new Car();
+        //car1.setMake("Nissan");
+        //car1.setModel("Altima");
+        //car1.display();
+
+        Car car1 = new Car("Nissan", "Altima");
         car1.display();
 
         Car car2 = new Car();
